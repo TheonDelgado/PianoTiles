@@ -47,19 +47,25 @@ nextThree.hidden = true;
 startOver.hidden= true;
 
 // Write anonymous event handler property and function for the first progress button
+nextOne.onclick = function() {
 
+}
 
 // Write anonymous event handler property and function for the second progress button
+nextOne.onclick = function() {
 
+}
 
 // Write anonymous event handler property and function for the third progress button
-
+nextOne.onclick = function() {
+  
+} 
 
 // This is the event handler property and function for the startOver button
 startOver.onclick = function() {
   nextOne.hidden = false;
   startOver.hidden = true;
-   document.getElementById('word-one').innerHTML = 'HAP-';
+  document.getElementById('word-one').innerHTML = 'HAP-';
   document.getElementById('letter-note-one').innerHTML = 'G';
   document.getElementById('word-two').innerHTML = 'PY';
   document.getElementById('letter-note-two').innerHTML = 'G';
